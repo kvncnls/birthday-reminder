@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -44,7 +44,7 @@ Variables
   --clr-pink: #f28ab2;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -154,26 +154,6 @@ main {
   text-transform: none;
   margin-bottom: 2rem;
 }
-.person {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 0.75rem;
-  margin-bottom: 1.5rem;
-  align-items: center;
-}
-.person img {
-  width: 75px;
-  height: 75px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: var(--light-shadow);
-}
-.person h4 {
-  margin-bottom: 0.35rem;
-}
-.person p {
-  margin-bottom: 0;
-}
 .container button {
   color: var(--clr-white);
   display: block;
@@ -188,4 +168,33 @@ main {
   border-radius: var(--radius);
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+}
+/* .person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}  */
+.person {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.person button {
+  width: 120px;
+  margin: 0 0 0 auto;
+}
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+}
+.person .info {
+  margin: 0 auto;
+}
+.person h4, p {
+  margin-bottom: 0;
 }

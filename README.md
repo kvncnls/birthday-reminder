@@ -7,7 +7,7 @@ https://kevin-react-birthday-reminder-app.netlify.app
 
 ### Goals of this project:
 
-- Shows basic understanding of React. Inline comments in code to show understanding of React.
+- Inline comments in code to show basic understanding of React
 - useState Hook
 - Props and destructuring props
 - Conditional rendering with ternary operations
